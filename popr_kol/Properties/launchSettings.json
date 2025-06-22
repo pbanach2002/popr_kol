@@ -26,7 +26,7 @@
       "launchUrl": "swagger",
       "applicationUrl": "https://localhost:7096;http://localhost:5107",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT{\n  \"$schema\": \"http://json.schemastore.org/launchsettings.json\",\n  \"iisSettings\": {\n    \"windowsAuthentication\": false,\n    \"anonymousAuthentication\": true,\n    \"iisExpress\": {\n      \"applicationUrl\": \"http://localhost:37051\",\n      \"sslPort\": 44365\n    }\n  },\n  \"profiles\": {\n    \"http\": {\n      \"commandName\": \"Project\",\n      \"dotnetRunMessages\": true,\n      \"launchBrowser\": true,\n      \"launchUrl\": \"swagger\",\n      \"applicationUrl\": \"http://localhost:5107\",\n      \"environmentVariables\": {\n        \"ASPNETCORE_ENVIRONMENT\": \"Development\"\n      }\n    },\n    \"https\": {\n      \"commandName\": \"Project\",\n      \"dotnetRunMessages\": true,\n      \"launchBrowser\": true,\n      \"launchUrl\": \"swagger\",\n      \"applicationUrl\": \"https://localhost:7096;http://localhost:5107\",\n      \"environmentVariables\": {\n        \"ASPNETCORE_ENVIRONMENT\": \"Development\"\n      }\n    },\n    \"IIS Express\": {\n      \"commandName\": \"IISExpress\",\n      \"launchBrowser\": true,\n      \"launchUrl\": \"swagger\",\n      \"environmentVariables\": {\n        \"ASPNETCORE_ENVIRONMENT\": \"Development\"\n      }\n    }\n  }\n}\n": "Development"
       }
     },
     "IIS Express": {
